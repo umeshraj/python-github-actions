@@ -3,3 +3,6 @@ def test_add_arrays():
 
 def test_name():
     assert 'umesh' == 'umesh'
+
+def test_fail():
+    assert 'ur' == 'ab'
